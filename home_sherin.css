@@ -1,0 +1,176 @@
+body {
+    background-image: linear-gradient(to left top, rgb(255, 240, 219), rgb(156, 132, 129));
+}
+
+.aside {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 70px;
+    /* storleken på bilden*/
+    border-radius: 100px;
+    /* runda bilden */
+}
+
+.contact_link {
+    color: rgb(217, 194, 186);
+    /* färg på texten */
+    background-color: rgb(75, 59, 66);
+    font-size: 15px;
+    /*text storlek*/
+    font-family: 'Times New Roman', Times, serif;
+    /*typsnitt*/
+    text-decoration: none;
+    /* inget sträck under texten*/
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+
+}
+
+
+
+
+.logo {
+    color: rgb(75, 59, 66);
+    background-color: rgb(217, 194, 186);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    /* 10px= top/bot 20px= left/right*/
+    border-radius: 4px;
+
+    /*sitt ursprungliga plats*/
+    em {
+        font-size: 20px;
+    }
+
+    animation-duration: 3s;
+    animation-name: spin;
+    /* elementet att snurra*/
+    animation-timing-function: ease-in-out;
+    /* elementet att snurra smidigare*/
+    animation-delay: 1s;
+    /* elementet att snurra 1s efter man kommer in på sidan*/
+    animation-direction: normal;
+    /*hoppar tillbaka till */
+}
+
+@keyframes spin {
+    0% {}
+
+    /* 0% är början av animationen*/
+    100% {
+        /* 100% är slutet av animationen*/
+        transform: rotate(360deg);
+        /* elementet att snurra 360 grader*/
+    }
+}
+
+
+
+p {
+    color: rgb(75, 59, 66);
+}
+
+h2 {
+    color: rgb(75, 59, 66);
+    background-color: rgb(217, 194, 186);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 5px 10px;
+
+}
+
+
+.menu-1 {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 59, 66);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.menu-2 {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 59, 66);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.menu-3 {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 59, 66);
+    cursor: pointer;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+ul li a {
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 59, 66);
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: rgb(75, 59, 66);
+    border-radius: 10px;
+    padding: 1px 5px;
+
+    p {
+        color: rgb(217, 194, 186);
+    }
+
+
+}
+
+
+@media (min-width:700px) {
+    a:hover {
+        color: beige;
+    }
+
+    /* hovrar över text porfolio */
+    .menu-1:hover {
+        color: beige;
+    }
+
+    .menu-2:hover {
+        color: beige;
+    }
+
+    .menu-3:hover {
+        color: beige;
+    }
+
+    .menu-4:hover {
+        color: beige;
+    }
+
+    .menu-5:hover {
+        color: beige;
+    }
+
+}

@@ -1,0 +1,136 @@
+body {
+    background-image: linear-gradient(to left top, rgb(255, 240, 219), rgb(156, 132, 129));
+    /*min-height: 100vh;*/
+    border: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+
+
+
+}
+
+.aside {
+    position: fixed;
+    top: 10px;
+    right: 3px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 70px;
+    /* storleken på bilden*/
+    border-radius: 100px;
+}
+
+.contact_link {
+    color: rgb(217, 194, 186);
+    /* färg på texten */
+    background-color: rgb(75, 59, 66);
+    font-size: 15px;
+    /*text storlek*/
+    font-family: 'Times New Roman', Times, serif;
+    /*typsnitt*/
+    text-decoration: none;
+    /* inget sträck under texten*/
+    text-align: center;
+    /* hovrar över contact*/
+    border-radius: 4px;
+    padding: 5px 10px;
+    /* 5px= top/bot 10px= left/right*/
+
+}
+
+.logo {
+    color: rgb(75, 59, 66);
+    background-color: rgb(217, 194, 186);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    padding-left: 10px;
+
+    em {
+        font-size: 20px;
+    }
+
+}
+
+
+
+details {
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(75, 59, 66);
+    cursor: pointer;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: rgb(75, 59, 66);
+    padding-top: 25px;
+}
+
+/* iframe nr1*/
+.box3 {
+    /* texten/länken centrerad*/
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+/* iframe nr2*/
+.box4 {
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* text för vad jag gjort som coordinator*/
+.box5 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(75, 59, 66);
+    font-size: 15px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 1px 5px;
+
+    p {
+        color: rgb(217, 194, 186);
+    }
+
+}
+
+
+
+@media (min-width:700px) {
+    .link:hover {
+        color: beige;
+    }
+
+    a:hover {
+        color: beige;
+    }
+
+    /* hovrar över text porfolio */
+    details:hover {
+        color: beige;
+    }
+}

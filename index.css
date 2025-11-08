@@ -35,7 +35,9 @@ img {
 }
 
 
-
+span {
+    font-size: 20px;
+}
 
 .logo {
     color: rgb(75, 59, 66);
@@ -143,6 +145,13 @@ footer {
         color: rgb(217, 194, 186);
     }
 
+
+}
+
+.copyright {
+    color: rgb(75, 59, 66);
+    background-color: rgb(217, 194, 186);
+    border-radius: 4px;
 
 }
 

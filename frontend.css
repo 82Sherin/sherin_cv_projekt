@@ -15,6 +15,7 @@ img {
     width: 70px;
     /* storleken på bilden*/
     border-radius: 100px;
+
 }
 
 
@@ -121,4 +122,5 @@ section {
     .menu-1:hover {
         color: beige;
     }
+
 }

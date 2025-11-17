@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to left top, rgb(255, 240, 219), rgb(156, 132, 129));
+
 }
 
 .aside {
@@ -9,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 img {
@@ -16,6 +18,7 @@ img {
     /* storleken på bilden*/
     border-radius: 100px;
     /* runda bilden */
+    border: 2px solid rgba(255, 255, 255, 0.4)
 }
 
 .contact_link {
@@ -31,7 +34,7 @@ img {
     text-align: center;
     border-radius: 4px;
     padding: 5px 10px;
-
+    border: 2px solid rgba(255, 255, 255, 0.4)
 }
 
 
@@ -44,14 +47,11 @@ span {
     background-color: rgb(217, 194, 186);
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 10px 20px;
-    /* 10px= top/bot 20px= left/right*/
+    padding: 10px 5px;
+    /* 10px= top/bot 5px= left/right*/
     border-radius: 4px;
 
-    /*sitt ursprungliga plats*/
-    em {
-        font-size: 20px;
-    }
+
 
     animation-duration: 3s;
     animation-name: spin;
@@ -79,7 +79,9 @@ span {
 
 p {
     color: rgb(75, 59, 66);
+    padding-top: 10px;
 }
+
 
 h2 {
     color: rgb(75, 59, 66);

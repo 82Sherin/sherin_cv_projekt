@@ -13,12 +13,26 @@ body {
 
 }
 
-img {
+.image-link {
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-link:hover {
+    transform: scale(1.1);
+}
+
+.image-link img {
     width: 70px;
-    /* storleken på bilden*/
     border-radius: 100px;
-    /* runda bilden */
-    border: 2px solid rgba(255, 255, 255, 0.4)
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.image-link:hover img {
+    border-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
 .contact_link {
@@ -34,11 +48,18 @@ img {
     text-align: center;
     border-radius: 4px;
     padding: 5px 10px;
-    border: 2px solid rgba(255, 255, 255, 0.4)
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.contact_link:hover {
+    background-color: rgb(90, 74, 81);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 
-span {
+.logo span {
     font-size: 20px;
 }
 
@@ -136,6 +157,25 @@ ul li a {
 
 .hidden {
     display: none;
+}
+
+/* Hover effect for the menu links */
+ul li a:hover {
+    color: rgb(217, 194, 186);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for portfolio */
+summary {
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+summary:hover {
+    color: rgb(217, 194, 186);
+    transform: scale(1.05);
 }
 
 section {

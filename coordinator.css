@@ -20,11 +20,50 @@ body {
     flex-direction: column;
 }
 
-img {
+
+.image-link {
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.image-link:hover {
+    transform: scale(1.1);
+}
+
+.image-link img {
     width: 70px;
-    /* storleken på bilden*/
     border-radius: 100px;
-    border: 2px solid rgba(255, 255, 255, 0.4)
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.image-link:hover img {
+    border-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.contact_link {
+    color: rgb(217, 194, 186);
+    /* färg på texten */
+    background-color: rgb(75, 59, 66);
+    font-size: 15px;
+    /*text storlek*/
+    font-family: 'Times New Roman', Times, serif;
+    /*typsnitt*/
+    text-decoration: none;
+    /* inget sträck under texten*/
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease;
+}
+
+.contact_link:hover {
+    background-color: rgb(90, 74, 81);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 .contact_link {
@@ -45,7 +84,7 @@ img {
     border: 2px solid rgba(255, 255, 255, 0.4)
 }
 
-span {
+.logo span {
     font-size: 20px;
 }
 
@@ -79,6 +118,25 @@ a {
 p {
     color: rgb(75, 59, 66);
     padding-top: 10px;
+}
+
+/* Hover effect for the menu links */
+.ul:hover {
+    color: rgb(217, 194, 186);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for portfolio */
+summary {
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+summary:hover {
+    color: rgb(217, 194, 186);
+    transform: scale(1.05);
 }
 
 /* iframe nr1*/
